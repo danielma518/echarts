@@ -24,6 +24,8 @@
 	<div id="main2" style="width:900px; height:500px;"></div>
 	<script type="text/javascript">
 
+		
+		
         $(function(){
 
             $.getJSON('one.json',function(data){
@@ -39,5 +41,15 @@
         var myChart2 = echarts.init(document.getElementById('main2'));
         myChart2.setOption(option);
 	
-	
+
+
+        // Use the option to display chart
+        var myChart1 = echarts.init(document.getElementById('main1'));
+        myChart1.setOption(option);
+
+        option['series'][0]['stack'] = 'population';
+        option['series'][1]['stack'] = 'population';
+        var myChart2 = echarts.init(document.getElementById('main2'));
+        myChart2.setOption(option);
+    
 </body></html>
