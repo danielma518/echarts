@@ -19,7 +19,7 @@
     
 	<p1 sytle= size:20px> About Hong Kong population </p1>
 	<p2 style= size:12px> There has been an increase of quality of lives in Hong Kong, resulting in people living longer lives. At the same time, birth rates and death rates have experienced changes over the past few decades. 
-	
+	</p2>
 	
 	<div id="main" style="width:900px; height:500px;"></div>
 	<script type="text/javascript">
@@ -82,14 +82,14 @@ myChart.setOption(option);
 	</script>
 	
 
-<div id="main" style="width:900px; height:500px;"></div>
+<div id="main2" style="width:900px; height:500px;"></div>
 <script type="text/javascript">
         $(function() {
             $.getJSON('two.json', function(data) {
                 var option = data;
                   console.log(data);
         // Use the option to display chart
-        var myChart1 = echarts.init(document.getElementById('main1'));
+        var myChart1 = echarts.init(document.getElementById('main2'));
         myChart1.setOption(option);
             })
         });
