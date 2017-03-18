@@ -11,8 +11,8 @@
   },
   
   "legend": {
-    "data":["Male",
-    "Female",
+    "data": ["Male",
+    "Female"
     ]
   },
   "grid": {
@@ -66,5 +66,5 @@
              }		
              		
              		
-         },		
-      ]
+         }
+      ]}
