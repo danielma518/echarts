@@ -45,7 +45,7 @@
                      }		
                  },		
                  "data" : [		
-                     [{type : "min"}, {type : "max"}]		
+                     [{"type" : "min"}, {"type" : "max"}]		
                  ]		
              }		
          },		
@@ -61,7 +61,7 @@
                      }		
                  },		
                  "data" : [		
-                     [{type : "min"}, {type : "max"}]		
+                     [{"type" : "min"}, {"type" : "max"}]		
                  ]		
              }		
              		
