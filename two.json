@@ -2,7 +2,7 @@
   "title": {
     "text": "Number of death"
   },  
-  { 
+   
     "tooltip" : {
      "trigger": "axis",
      "axisPointer" : {            
