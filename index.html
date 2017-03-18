@@ -27,13 +27,16 @@
 		
 		
         $(function(){
-
+		console.log("Enter Jquery Block");
             $.getJSON('one.json',function(data){
-                var option = data;
-                console.log(data);
+		    
+		console.log("Enter getJson Block");
+               // var option = data;
+               // console.log(data);
         // Use the option to display chart
-        var myChart1 = echarts.init(document.getElementById('main1'));
-        myChart1.setOption(option);});
+       // var myChart1 = echarts.init(document.getElementById('main1'));
+       // myChart1.setOption(option);
+	    })
 
          $.getJSON('two.json',function(data){
                 var option = data;
